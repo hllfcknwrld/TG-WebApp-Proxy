@@ -1,2 +1,2 @@
-name = "tgcf-dl"
+name = "tg-webapp-proxy"
 pages_build_output_dir = "./dist"
