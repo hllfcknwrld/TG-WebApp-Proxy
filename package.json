@@ -1,5 +1,5 @@
 {
-  "name": "tgcf-dl",
+  "name": "tg-webapp-proxy",
   "version": "2.0.0",
   "description": "Telegram File Downloader - Client-side MTProto via teleproto, deployed on Cloudflare Pages",
   "private": true,
@@ -8,11 +8,11 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "deploy": "npm run build && wrangler pages deploy dist --project-name tgcf-dl"
+    "deploy": "npm run build && wrangler pages deploy dist --project-name tg-webapp-proxy"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/CloudflareHackers/TGCFWorkersDLBot.git"
+    "url": "git+https://github.com/hllfcknwrld/TGCFWorkersDLBot.git"
   },
   "keywords": [
     "telegram",
@@ -23,9 +23,9 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/CloudflareHackers/TGCFWorkersDLBot/issues"
+    "url": "https://github.com/hllfcknwrld/TGCFWorkersDLBot/issues"
   },
-  "homepage": "https://github.com/CloudflareHackers/TGCFWorkersDLBot#readme",
+  "homepage": "https://github.com/hllfcknwrld/TGCFWorkersDLBot#readme",
   "dependencies": {
     "buffer": "^6.0.3",
     "events": "^3.3.0",
